@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC64E2055C0E6005E495F /* AppDelegate.swift */; };
+		B36DC6512055C0E6005E495F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC6502055C0E6005E495F /* ViewController.swift */; };
+		B36DC6542055C0E6005E495F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6522055C0E6005E495F /* Main.storyboard */; };
+		B36DC6562055C0E6005E495F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6552055C0E6005E495F /* Assets.xcassets */; };
+		B36DC6592055C0E6005E495F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */; };
+		B36DC6642055C0E6005E495F /* Run_for_Water_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC6632055C0E6005E495F /* Run_for_Water_iOSTests.swift */; };
+		B36DC66F2055C0E6005E495F /* Run_for_Water_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC66E2055C0E6005E495F /* Run_for_Water_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36DC6602055C0E6005E495F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36DC6432055C0E6005E495F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36DC64A2055C0E6005E495F;
+			remoteInfo = "Run-for-Water-iOS";
+		};
+		B36DC66B2055C0E6005E495F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36DC6432055C0E6005E495F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36DC64A2055C0E6005E495F;
+			remoteInfo = "Run-for-Water-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B36DC64B2055C0E6005E495F /* Run-for-Water-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run-for-Water-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36DC64E2055C0E6005E495F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B36DC6502055C0E6005E495F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B36DC6532055C0E6005E495F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36DC6552055C0E6005E495F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36DC6582055C0E6005E495F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B36DC65A2055C0E6005E495F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36DC65F2055C0E6005E495F /* Run-for-Water-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Run-for-Water-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36DC6632055C0E6005E495F /* Run_for_Water_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run_for_Water_iOSTests.swift; sourceTree = "<group>"; };
+		B36DC6652055C0E6005E495F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36DC66A2055C0E6005E495F /* Run-for-Water-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Run-for-Water-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36DC66E2055C0E6005E495F /* Run_for_Water_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run_for_Water_iOSUITests.swift; sourceTree = "<group>"; };
+		B36DC6702055C0E6005E495F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36DC6482055C0E6005E495F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DC65C2055C0E6005E495F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DC6672055C0E6005E495F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36DC6422055C0E6005E495F = {
+			isa = PBXGroup;
+			children = (
+				B36DC64D2055C0E6005E495F /* Run-for-Water-iOS */,
+				B36DC6622055C0E6005E495F /* Run-for-Water-iOSTests */,
+				B36DC66D2055C0E6005E495F /* Run-for-Water-iOSUITests */,
+				B36DC64C2055C0E6005E495F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36DC64C2055C0E6005E495F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC64B2055C0E6005E495F /* Run-for-Water-iOS.app */,
+				B36DC65F2055C0E6005E495F /* Run-for-Water-iOSTests.xctest */,
+				B36DC66A2055C0E6005E495F /* Run-for-Water-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36DC64D2055C0E6005E495F /* Run-for-Water-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC64E2055C0E6005E495F /* AppDelegate.swift */,
+				B36DC6502055C0E6005E495F /* ViewController.swift */,
+				B36DC6522055C0E6005E495F /* Main.storyboard */,
+				B36DC6552055C0E6005E495F /* Assets.xcassets */,
+				B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */,
+				B36DC65A2055C0E6005E495F /* Info.plist */,
+			);
+			path = "Run-for-Water-iOS";
+			sourceTree = "<group>";
+		};
+		B36DC6622055C0E6005E495F /* Run-for-Water-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC6632055C0E6005E495F /* Run_for_Water_iOSTests.swift */,
+				B36DC6652055C0E6005E495F /* Info.plist */,
+			);
+			path = "Run-for-Water-iOSTests";
+			sourceTree = "<group>";
+		};
+		B36DC66D2055C0E6005E495F /* Run-for-Water-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC66E2055C0E6005E495F /* Run_for_Water_iOSUITests.swift */,
+				B36DC6702055C0E6005E495F /* Info.plist */,
+			);
+			path = "Run-for-Water-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36DC64A2055C0E6005E495F /* Run-for-Water-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36DC6732055C0E6005E495F /* Build configuration list for PBXNativeTarget "Run-for-Water-iOS" */;
+			buildPhases = (
+				B36DC6472055C0E6005E495F /* Sources */,
+				B36DC6482055C0E6005E495F /* Frameworks */,
+				B36DC6492055C0E6005E495F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Run-for-Water-iOS";
+			productName = "Run-for-Water-iOS";
+			productReference = B36DC64B2055C0E6005E495F /* Run-for-Water-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36DC65E2055C0E6005E495F /* Run-for-Water-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36DC6762055C0E6005E495F /* Build configuration list for PBXNativeTarget "Run-for-Water-iOSTests" */;
+			buildPhases = (
+				B36DC65B2055C0E6005E495F /* Sources */,
+				B36DC65C2055C0E6005E495F /* Frameworks */,
+				B36DC65D2055C0E6005E495F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36DC6612055C0E6005E495F /* PBXTargetDependency */,
+			);
+			name = "Run-for-Water-iOSTests";
+			productName = "Run-for-Water-iOSTests";
+			productReference = B36DC65F2055C0E6005E495F /* Run-for-Water-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B36DC6692055C0E6005E495F /* Run-for-Water-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36DC6792055C0E6005E495F /* Build configuration list for PBXNativeTarget "Run-for-Water-iOSUITests" */;
+			buildPhases = (
+				B36DC6662055C0E6005E495F /* Sources */,
+				B36DC6672055C0E6005E495F /* Frameworks */,
+				B36DC6682055C0E6005E495F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36DC66C2055C0E6005E495F /* PBXTargetDependency */,
+			);
+			name = "Run-for-Water-iOSUITests";
+			productName = "Run-for-Water-iOSUITests";
+			productReference = B36DC66A2055C0E6005E495F /* Run-for-Water-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36DC6432055C0E6005E495F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kieran Halliday";
+				TargetAttributes = {
+					B36DC64A2055C0E6005E495F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B36DC65E2055C0E6005E495F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B36DC64A2055C0E6005E495F;
+					};
+					B36DC6692055C0E6005E495F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B36DC64A2055C0E6005E495F;
+					};
+				};
+			};
+			buildConfigurationList = B36DC6462055C0E6005E495F /* Build configuration list for PBXProject "Run-for-Water-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36DC6422055C0E6005E495F;
+			productRefGroup = B36DC64C2055C0E6005E495F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36DC64A2055C0E6005E495F /* Run-for-Water-iOS */,
+				B36DC65E2055C0E6005E495F /* Run-for-Water-iOSTests */,
+				B36DC6692055C0E6005E495F /* Run-for-Water-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36DC6492055C0E6005E495F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36DC6592055C0E6005E495F /* LaunchScreen.storyboard in Resources */,
+				B36DC6562055C0E6005E495F /* Assets.xcassets in Resources */,
+				B36DC6542055C0E6005E495F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DC65D2055C0E6005E495F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DC6682055C0E6005E495F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36DC6472055C0E6005E495F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36DC6512055C0E6005E495F /* ViewController.swift in Sources */,
+				B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DC65B2055C0E6005E495F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36DC6642055C0E6005E495F /* Run_for_Water_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36DC6662055C0E6005E495F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36DC66F2055C0E6005E495F /* Run_for_Water_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36DC6612055C0E6005E495F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36DC64A2055C0E6005E495F /* Run-for-Water-iOS */;
+			targetProxy = B36DC6602055C0E6005E495F /* PBXContainerItemProxy */;
+		};
+		B36DC66C2055C0E6005E495F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36DC64A2055C0E6005E495F /* Run-for-Water-iOS */;
+			targetProxy = B36DC66B2055C0E6005E495F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36DC6522055C0E6005E495F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36DC6532055C0E6005E495F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36DC6582055C0E6005E495F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36DC6712055C0E6005E495F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B36DC6722055C0E6005E495F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36DC6742055C0E6005E495F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQV46SKS64;
+				INFOPLIST_FILE = "Run-for-Water-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B36DC6752055C0E6005E495F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQV46SKS64;
+				INFOPLIST_FILE = "Run-for-Water-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B36DC6772055C0E6005E495F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQV46SKS64;
+				INFOPLIST_FILE = "Run-for-Water-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Run-for-Water-iOS.app/Run-for-Water-iOS";
+			};
+			name = Debug;
+		};
+		B36DC6782055C0E6005E495F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQV46SKS64;
+				INFOPLIST_FILE = "Run-for-Water-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Run-for-Water-iOS.app/Run-for-Water-iOS";
+			};
+			name = Release;
+		};
+		B36DC67A2055C0E6005E495F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQV46SKS64;
+				INFOPLIST_FILE = "Run-for-Water-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Run-for-Water-iOS";
+			};
+			name = Debug;
+		};
+		B36DC67B2055C0E6005E495F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SQV46SKS64;
+				INFOPLIST_FILE = "Run-for-Water-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Run-for-Water-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36DC6462055C0E6005E495F /* Build configuration list for PBXProject "Run-for-Water-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36DC6712055C0E6005E495F /* Debug */,
+				B36DC6722055C0E6005E495F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36DC6732055C0E6005E495F /* Build configuration list for PBXNativeTarget "Run-for-Water-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36DC6742055C0E6005E495F /* Debug */,
+				B36DC6752055C0E6005E495F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36DC6762055C0E6005E495F /* Build configuration list for PBXNativeTarget "Run-for-Water-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36DC6772055C0E6005E495F /* Debug */,
+				B36DC6782055C0E6005E495F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36DC6792055C0E6005E495F /* Build configuration list for PBXNativeTarget "Run-for-Water-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36DC67A2055C0E6005E495F /* Debug */,
+				B36DC67B2055C0E6005E495F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36DC6432055C0E6005E495F /* Project object */;
+}
