@@ -1,0 +1,6 @@
+framework module Pods_Run_for_Water_iOS {
+  umbrella header "Pods-Run-for-Water-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
