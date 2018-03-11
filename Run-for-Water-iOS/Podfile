@@ -8,6 +8,8 @@ target 'Run-for-Water-iOS' do
   # Pods for Run-for-Water-iOS
   
   pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
 
   target 'Run-for-Water-iOSTests' do
     inherit! :search_paths
