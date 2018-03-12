@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F265B24C310A94EAB604AA4EDFBB3E29"
+               BlueprintIdentifier = "949007FC87241F2D63540C18567C9F09"
                BuildableName = "Pods_Run_for_Water_iOS.framework"
                BlueprintName = "Pods-Run-for-Water-iOS"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F265B24C310A94EAB604AA4EDFBB3E29"
+            BlueprintIdentifier = "949007FC87241F2D63540C18567C9F09"
             BuildableName = "Pods_Run_for_Water_iOS.framework"
             BlueprintName = "Pods-Run-for-Water-iOS"
             ReferencedContainer = "container:Pods.xcodeproj">
