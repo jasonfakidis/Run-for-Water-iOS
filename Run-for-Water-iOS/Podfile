@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '8.0'
 
 target 'Run-for-Water-iOS' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -10,6 +10,9 @@ target 'Run-for-Water-iOS' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
+  pod 'GoogleSignIn'
+  pod 'FBSDKLoginKit'
+  pod 'TwitterKit'
 
   target 'Run-for-Water-iOSTests' do
     inherit! :search_paths
