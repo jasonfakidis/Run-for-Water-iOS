@@ -10,8 +10,8 @@
 		5FB88088AF7BAFF9FD94D58C /* Pods_Run_for_Water_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C57117F424FFF64AF2B980 /* Pods_Run_for_Water_iOSTests.framework */; };
 		76FE30BB8127FC638FAA852D /* Pods_Run_for_Water_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDFF773E6D62C774430751B /* Pods_Run_for_Water_iOSUITests.framework */; };
 		9492EE3FFEC0FC6EC25E7C8D /* Pods_Run_for_Water_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415BAB0F8F381122A1060E3E /* Pods_Run_for_Water_iOS.framework */; };
+		B3612C002056CBFC00E238A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3612BFF2056CBFC00E238A5 /* ViewController.swift */; };
 		B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC64E2055C0E6005E495F /* AppDelegate.swift */; };
-		B36DC6512055C0E6005E495F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC6502055C0E6005E495F /* ViewController.swift */; };
 		B36DC6542055C0E6005E495F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6522055C0E6005E495F /* Main.storyboard */; };
 		B36DC6562055C0E6005E495F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6552055C0E6005E495F /* Assets.xcassets */; };
 		B36DC6592055C0E6005E495F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */; };
@@ -46,9 +46,9 @@
 		7DDFF773E6D62C774430751B /* Pods_Run_for_Water_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Run_for_Water_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF0D14A23EAFD9349F3A28D /* Pods-Run-for-Water-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOSUITests/Pods-Run-for-Water-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E1FA4CD906D650E80878263 /* Pods-Run-for-Water-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOSUITests/Pods-Run-for-Water-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3612BFF2056CBFC00E238A5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B36DC64B2055C0E6005E495F /* Run-for-Water-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run-for-Water-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36DC64E2055C0E6005E495F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B36DC6502055C0E6005E495F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B36DC6532055C0E6005E495F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B36DC6552055C0E6005E495F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B36DC6582055C0E6005E495F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 		B36DC64D2055C0E6005E495F /* Run-for-Water-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B3612BFF2056CBFC00E238A5 /* ViewController.swift */,
 				B36DC64E2055C0E6005E495F /* AppDelegate.swift */,
-				B36DC6502055C0E6005E495F /* ViewController.swift */,
 				B36DC6522055C0E6005E495F /* Main.storyboard */,
 				B36DC6552055C0E6005E495F /* Assets.xcassets */,
 				B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */,
@@ -333,12 +333,20 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Run-for-Water-iOS/Pods-Run-for-Water-iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -435,9 +443,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Run-for-Water-iOS/Pods-Run-for-Water-iOS-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -466,7 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B36DC6512055C0E6005E495F /* ViewController.swift in Sources */,
+				B3612C002056CBFC00E238A5 /* ViewController.swift in Sources */,
 				B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
