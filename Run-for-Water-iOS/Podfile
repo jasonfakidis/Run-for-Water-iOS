@@ -10,6 +10,7 @@ target 'Run-for-Water-iOS' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
+  pod 'FirebaseUI'
   pod 'GoogleSignIn'
   pod 'FBSDKLoginKit'
   pod 'TwitterKit'

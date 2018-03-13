@@ -5,9 +5,6 @@
       location = "group:Run-for-Water-iOS.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../../FirebaseUI-iOS/FirebaseUI.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
