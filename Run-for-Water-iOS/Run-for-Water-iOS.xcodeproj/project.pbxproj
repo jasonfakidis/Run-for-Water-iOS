@@ -21,6 +21,384 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B3612C752056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D2A84A61D678B2B0058DF04;
+			remoteInfo = FirebaseUI;
+		};
+		B3612C772056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FA51D678CC400B0D3C4;
+			remoteInfo = FirebaseDatabaseUI;
+		};
+		B3612C792056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FAE1D678CC400B0D3C4;
+			remoteInfo = FirebaseDatabaseUITests;
+		};
+		B3612C7B2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FC11D678CDC00B0D3C4;
+			remoteInfo = FirebaseAuthUI;
+		};
+		B3612C7D2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FCA1D678CDC00B0D3C4;
+			remoteInfo = FirebaseAuthUITests;
+		};
+		B3612C7F2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FDD1D678CE800B0D3C4;
+			remoteInfo = FirebaseFacebookAuthUI;
+		};
+		B3612C812056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FE61D678CE800B0D3C4;
+			remoteInfo = FirebaseFacebookAuthUITests;
+		};
+		B3612C832056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FF91D678CF500B0D3C4;
+			remoteInfo = FirebaseGoogleAuthUI;
+		};
+		B3612C852056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC50021D678CF500B0D3C4;
+			remoteInfo = FirebaseGoogleAuthUITests;
+		};
+		B3612C872056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3773B541E8EFDEA00ACF58C;
+			remoteInfo = FirebasePhoneAuthUI;
+		};
+		B3612C892056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3773B5C1E8EFDEA00ACF58C;
+			remoteInfo = FirebasePhoneAuthUITests;
+		};
+		B3612C8B2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C32516921D88A54C00B0B3F9;
+			remoteInfo = FirebaseTwitterAuthUI;
+		};
+		B3612C8D2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C325169B1D88A54C00B0B3F9;
+			remoteInfo = FirebaseTwitterAuthUITests;
+		};
+		B3612C8F2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D90842E1D9316AB00333CC8;
+			remoteInfo = FirebaseStorageUI;
+		};
+		B3612C912056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D9084361D9316AB00333CC8;
+			remoteInfo = FirebaseStorageUITests;
+		};
+		B3612C932056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D559D411F68A7F100CE9D8A;
+			remoteInfo = FirebaseFirestoreUI;
+		};
+		B3612C952056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D559D491F68A7F100CE9D8A;
+			remoteInfo = FirebaseFirestoreUITests;
+		};
+		B3612C972056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F4F1D872E1C00D113D3;
+			remoteInfo = Database;
+		};
+		B3612C992056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F5C1D872E2400D113D3;
+			remoteInfo = Auth;
+		};
+		B3612C9B2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F691D872E2E00D113D3;
+			remoteInfo = Facebook;
+		};
+		B3612C9D2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F761D872E3500D113D3;
+			remoteInfo = Google;
+		};
+		B3612C9F2056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3773B8B1E92C91D00ACF58C;
+			remoteInfo = Phone;
+		};
+		B3612CA12056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C32516AD1D88A5A700B0B3F9;
+			remoteInfo = Twitter;
+		};
+		B3612CA32056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D9084201D93168800333CC8;
+			remoteInfo = Storage;
+		};
+		B3612CA52056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D559D5C1F68A80300CE9D8A;
+			remoteInfo = Firestore;
+		};
+		B3612CA72056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C329B1381DA8694A00059A13;
+			remoteInfo = FirebaseUISample;
+		};
+		B3612CA92056D75200E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C329B15B1DA8694A00059A13;
+			remoteInfo = FirebaseUISampleUITests;
+		};
+		B3612CC92056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D2A84A61D678B2B0058DF04;
+			remoteInfo = FirebaseUI;
+		};
+		B3612CCB2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FA51D678CC400B0D3C4;
+			remoteInfo = FirebaseDatabaseUI;
+		};
+		B3612CCD2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FAE1D678CC400B0D3C4;
+			remoteInfo = FirebaseDatabaseUITests;
+		};
+		B3612CCF2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FC11D678CDC00B0D3C4;
+			remoteInfo = FirebaseAuthUI;
+		};
+		B3612CD12056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FCA1D678CDC00B0D3C4;
+			remoteInfo = FirebaseAuthUITests;
+		};
+		B3612CD32056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FDD1D678CE800B0D3C4;
+			remoteInfo = FirebaseFacebookAuthUI;
+		};
+		B3612CD52056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FE61D678CE800B0D3C4;
+			remoteInfo = FirebaseFacebookAuthUITests;
+		};
+		B3612CD72056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC4FF91D678CF500B0D3C4;
+			remoteInfo = FirebaseGoogleAuthUI;
+		};
+		B3612CD92056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DCC50021D678CF500B0D3C4;
+			remoteInfo = FirebaseGoogleAuthUITests;
+		};
+		B3612CDB2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3773B541E8EFDEA00ACF58C;
+			remoteInfo = FirebasePhoneAuthUI;
+		};
+		B3612CDD2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3773B5C1E8EFDEA00ACF58C;
+			remoteInfo = FirebasePhoneAuthUITests;
+		};
+		B3612CDF2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C32516921D88A54C00B0B3F9;
+			remoteInfo = FirebaseTwitterAuthUI;
+		};
+		B3612CE12056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C325169B1D88A54C00B0B3F9;
+			remoteInfo = FirebaseTwitterAuthUITests;
+		};
+		B3612CE32056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D90842E1D9316AB00333CC8;
+			remoteInfo = FirebaseStorageUI;
+		};
+		B3612CE52056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D9084361D9316AB00333CC8;
+			remoteInfo = FirebaseStorageUITests;
+		};
+		B3612CE72056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D559D411F68A7F100CE9D8A;
+			remoteInfo = FirebaseFirestoreUI;
+		};
+		B3612CE92056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D559D491F68A7F100CE9D8A;
+			remoteInfo = FirebaseFirestoreUITests;
+		};
+		B3612CEB2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F4F1D872E1C00D113D3;
+			remoteInfo = Database;
+		};
+		B3612CED2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F5C1D872E2400D113D3;
+			remoteInfo = Auth;
+		};
+		B3612CEF2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F691D872E2E00D113D3;
+			remoteInfo = Facebook;
+		};
+		B3612CF12056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DBA0F761D872E3500D113D3;
+			remoteInfo = Google;
+		};
+		B3612CF32056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3773B8B1E92C91D00ACF58C;
+			remoteInfo = Phone;
+		};
+		B3612CF52056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C32516AD1D88A5A700B0B3F9;
+			remoteInfo = Twitter;
+		};
+		B3612CF72056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D9084201D93168800333CC8;
+			remoteInfo = Storage;
+		};
+		B3612CF92056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D559D5C1F68A80300CE9D8A;
+			remoteInfo = Firestore;
+		};
+		B3612CFB2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C329B1381DA8694A00059A13;
+			remoteInfo = FirebaseUISample;
+		};
+		B3612CFD2056D75C00E238A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C329B15B1DA8694A00059A13;
+			remoteInfo = FirebaseUISampleUITests;
+		};
 		B36DC6602055C0E6005E495F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B36DC6432055C0E6005E495F /* Project object */;
@@ -47,6 +425,8 @@
 		8AF0D14A23EAFD9349F3A28D /* Pods-Run-for-Water-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOSUITests/Pods-Run-for-Water-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E1FA4CD906D650E80878263 /* Pods-Run-for-Water-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOSUITests/Pods-Run-for-Water-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B3612BFF2056CBFC00E238A5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FirebaseUI.xcodeproj; path = "../../FirebaseUI-iOS/FirebaseUI.xcodeproj"; sourceTree = "<group>"; };
+		B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FirebaseUI.xcodeproj; path = "../../FirebaseUI-iOS/FirebaseUI.xcodeproj"; sourceTree = "<group>"; };
 		B36DC64B2055C0E6005E495F /* Run-for-Water-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run-for-Water-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36DC64E2055C0E6005E495F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B36DC6532055C0E6005E495F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,9 +484,78 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B3612C582056D75200E238A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3612C762056D75200E238A5 /* FirebaseUI.framework */,
+				B3612C782056D75200E238A5 /* FirebaseDatabaseUI.framework */,
+				B3612C7A2056D75200E238A5 /* FirebaseDatabaseUITests.xctest */,
+				B3612C7C2056D75200E238A5 /* FirebaseAuthUI.framework */,
+				B3612C7E2056D75200E238A5 /* FirebaseAuthUITests.xctest */,
+				B3612C802056D75200E238A5 /* FirebaseFacebookAuthUI.framework */,
+				B3612C822056D75200E238A5 /* FirebaseFacebookAuthUITests.xctest */,
+				B3612C842056D75200E238A5 /* FirebaseGoogleAuthUI.framework */,
+				B3612C862056D75200E238A5 /* FirebaseGoogleAuthUITests.xctest */,
+				B3612C882056D75200E238A5 /* FirebasePhoneAuthUI.framework */,
+				B3612C8A2056D75200E238A5 /* FirebasePhoneAuthUITests.xctest */,
+				B3612C8C2056D75200E238A5 /* FirebaseTwitterAuthUI.framework */,
+				B3612C8E2056D75200E238A5 /* FirebaseTwitterAuthUITests.xctest */,
+				B3612C902056D75200E238A5 /* FirebaseStorageUI.framework */,
+				B3612C922056D75200E238A5 /* FirebaseStorageUITests.xctest */,
+				B3612C942056D75200E238A5 /* FirebaseFirestoreUI.framework */,
+				B3612C962056D75200E238A5 /* FirebaseFirestoreUITests.xctest */,
+				B3612C982056D75200E238A5 /* libDatabase.a */,
+				B3612C9A2056D75200E238A5 /* libAuth.a */,
+				B3612C9C2056D75200E238A5 /* libFacebook.a */,
+				B3612C9E2056D75200E238A5 /* libGoogle.a */,
+				B3612CA02056D75200E238A5 /* libPhone.a */,
+				B3612CA22056D75200E238A5 /* libTwitter.a */,
+				B3612CA42056D75200E238A5 /* libStorage.a */,
+				B3612CA62056D75200E238A5 /* libFirestore.a */,
+				B3612CA82056D75200E238A5 /* FirebaseUISample.app */,
+				B3612CAA2056D75200E238A5 /* FirebaseUISampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3612CAC2056D75C00E238A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3612CCA2056D75C00E238A5 /* FirebaseUI.framework */,
+				B3612CCC2056D75C00E238A5 /* FirebaseDatabaseUI.framework */,
+				B3612CCE2056D75C00E238A5 /* FirebaseDatabaseUITests.xctest */,
+				B3612CD02056D75C00E238A5 /* FirebaseAuthUI.framework */,
+				B3612CD22056D75C00E238A5 /* FirebaseAuthUITests.xctest */,
+				B3612CD42056D75C00E238A5 /* FirebaseFacebookAuthUI.framework */,
+				B3612CD62056D75C00E238A5 /* FirebaseFacebookAuthUITests.xctest */,
+				B3612CD82056D75C00E238A5 /* FirebaseGoogleAuthUI.framework */,
+				B3612CDA2056D75C00E238A5 /* FirebaseGoogleAuthUITests.xctest */,
+				B3612CDC2056D75C00E238A5 /* FirebasePhoneAuthUI.framework */,
+				B3612CDE2056D75C00E238A5 /* FirebasePhoneAuthUITests.xctest */,
+				B3612CE02056D75C00E238A5 /* FirebaseTwitterAuthUI.framework */,
+				B3612CE22056D75C00E238A5 /* FirebaseTwitterAuthUITests.xctest */,
+				B3612CE42056D75C00E238A5 /* FirebaseStorageUI.framework */,
+				B3612CE62056D75C00E238A5 /* FirebaseStorageUITests.xctest */,
+				B3612CE82056D75C00E238A5 /* FirebaseFirestoreUI.framework */,
+				B3612CEA2056D75C00E238A5 /* FirebaseFirestoreUITests.xctest */,
+				B3612CEC2056D75C00E238A5 /* libDatabase.a */,
+				B3612CEE2056D75C00E238A5 /* libAuth.a */,
+				B3612CF02056D75C00E238A5 /* libFacebook.a */,
+				B3612CF22056D75C00E238A5 /* libGoogle.a */,
+				B3612CF42056D75C00E238A5 /* libPhone.a */,
+				B3612CF62056D75C00E238A5 /* libTwitter.a */,
+				B3612CF82056D75C00E238A5 /* libStorage.a */,
+				B3612CFA2056D75C00E238A5 /* libFirestore.a */,
+				B3612CFC2056D75C00E238A5 /* FirebaseUISample.app */,
+				B3612CFE2056D75C00E238A5 /* FirebaseUISampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B36DC6422055C0E6005E495F = {
 			isa = PBXGroup;
 			children = (
+				B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */,
 				B36DC64D2055C0E6005E495F /* Run-for-Water-iOS */,
 				B36DC6622055C0E6005E495F /* Run-for-Water-iOSTests */,
 				B36DC66D2055C0E6005E495F /* Run-for-Water-iOSUITests */,
@@ -161,6 +610,7 @@
 		F4E3BEBD024A9C8021779FDE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */,
 				415BAB0F8F381122A1060E3E /* Pods_Run_for_Water_iOS.framework */,
 				72C57117F424FFF64AF2B980 /* Pods_Run_for_Water_iOSTests.framework */,
 				7DDFF773E6D62C774430751B /* Pods_Run_for_Water_iOSUITests.framework */,
@@ -270,6 +720,16 @@
 			mainGroup = B36DC6422055C0E6005E495F;
 			productRefGroup = B36DC64C2055C0E6005E495F /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3612CAC2056D75C00E238A5 /* Products */;
+					ProjectRef = B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */;
+				},
+				{
+					ProductGroup = B3612C582056D75200E238A5 /* Products */;
+					ProjectRef = B3612C572056D75200E238A5 /* FirebaseUI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B36DC64A2055C0E6005E495F /* Run-for-Water-iOS */,
@@ -278,6 +738,387 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B3612C762056D75200E238A5 /* FirebaseUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseUI.framework;
+			remoteRef = B3612C752056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C782056D75200E238A5 /* FirebaseDatabaseUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseDatabaseUI.framework;
+			remoteRef = B3612C772056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C7A2056D75200E238A5 /* FirebaseDatabaseUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseDatabaseUITests.xctest;
+			remoteRef = B3612C792056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C7C2056D75200E238A5 /* FirebaseAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseAuthUI.framework;
+			remoteRef = B3612C7B2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C7E2056D75200E238A5 /* FirebaseAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseAuthUITests.xctest;
+			remoteRef = B3612C7D2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C802056D75200E238A5 /* FirebaseFacebookAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseFacebookAuthUI.framework;
+			remoteRef = B3612C7F2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C822056D75200E238A5 /* FirebaseFacebookAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseFacebookAuthUITests.xctest;
+			remoteRef = B3612C812056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C842056D75200E238A5 /* FirebaseGoogleAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseGoogleAuthUI.framework;
+			remoteRef = B3612C832056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C862056D75200E238A5 /* FirebaseGoogleAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseGoogleAuthUITests.xctest;
+			remoteRef = B3612C852056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C882056D75200E238A5 /* FirebasePhoneAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebasePhoneAuthUI.framework;
+			remoteRef = B3612C872056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C8A2056D75200E238A5 /* FirebasePhoneAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebasePhoneAuthUITests.xctest;
+			remoteRef = B3612C892056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C8C2056D75200E238A5 /* FirebaseTwitterAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseTwitterAuthUI.framework;
+			remoteRef = B3612C8B2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C8E2056D75200E238A5 /* FirebaseTwitterAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseTwitterAuthUITests.xctest;
+			remoteRef = B3612C8D2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C902056D75200E238A5 /* FirebaseStorageUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseStorageUI.framework;
+			remoteRef = B3612C8F2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C922056D75200E238A5 /* FirebaseStorageUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseStorageUITests.xctest;
+			remoteRef = B3612C912056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C942056D75200E238A5 /* FirebaseFirestoreUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseFirestoreUI.framework;
+			remoteRef = B3612C932056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C962056D75200E238A5 /* FirebaseFirestoreUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseFirestoreUITests.xctest;
+			remoteRef = B3612C952056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C982056D75200E238A5 /* libDatabase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDatabase.a;
+			remoteRef = B3612C972056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C9A2056D75200E238A5 /* libAuth.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAuth.a;
+			remoteRef = B3612C992056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C9C2056D75200E238A5 /* libFacebook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFacebook.a;
+			remoteRef = B3612C9B2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612C9E2056D75200E238A5 /* libGoogle.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGoogle.a;
+			remoteRef = B3612C9D2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CA02056D75200E238A5 /* libPhone.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPhone.a;
+			remoteRef = B3612C9F2056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CA22056D75200E238A5 /* libTwitter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTwitter.a;
+			remoteRef = B3612CA12056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CA42056D75200E238A5 /* libStorage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStorage.a;
+			remoteRef = B3612CA32056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CA62056D75200E238A5 /* libFirestore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirestore.a;
+			remoteRef = B3612CA52056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CA82056D75200E238A5 /* FirebaseUISample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FirebaseUISample.app;
+			remoteRef = B3612CA72056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CAA2056D75200E238A5 /* FirebaseUISampleUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseUISampleUITests.xctest;
+			remoteRef = B3612CA92056D75200E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CCA2056D75C00E238A5 /* FirebaseUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseUI.framework;
+			remoteRef = B3612CC92056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CCC2056D75C00E238A5 /* FirebaseDatabaseUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseDatabaseUI.framework;
+			remoteRef = B3612CCB2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CCE2056D75C00E238A5 /* FirebaseDatabaseUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseDatabaseUITests.xctest;
+			remoteRef = B3612CCD2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CD02056D75C00E238A5 /* FirebaseAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseAuthUI.framework;
+			remoteRef = B3612CCF2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CD22056D75C00E238A5 /* FirebaseAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseAuthUITests.xctest;
+			remoteRef = B3612CD12056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CD42056D75C00E238A5 /* FirebaseFacebookAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseFacebookAuthUI.framework;
+			remoteRef = B3612CD32056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CD62056D75C00E238A5 /* FirebaseFacebookAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseFacebookAuthUITests.xctest;
+			remoteRef = B3612CD52056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CD82056D75C00E238A5 /* FirebaseGoogleAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseGoogleAuthUI.framework;
+			remoteRef = B3612CD72056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CDA2056D75C00E238A5 /* FirebaseGoogleAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseGoogleAuthUITests.xctest;
+			remoteRef = B3612CD92056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CDC2056D75C00E238A5 /* FirebasePhoneAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebasePhoneAuthUI.framework;
+			remoteRef = B3612CDB2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CDE2056D75C00E238A5 /* FirebasePhoneAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebasePhoneAuthUITests.xctest;
+			remoteRef = B3612CDD2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CE02056D75C00E238A5 /* FirebaseTwitterAuthUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseTwitterAuthUI.framework;
+			remoteRef = B3612CDF2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CE22056D75C00E238A5 /* FirebaseTwitterAuthUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseTwitterAuthUITests.xctest;
+			remoteRef = B3612CE12056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CE42056D75C00E238A5 /* FirebaseStorageUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseStorageUI.framework;
+			remoteRef = B3612CE32056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CE62056D75C00E238A5 /* FirebaseStorageUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseStorageUITests.xctest;
+			remoteRef = B3612CE52056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CE82056D75C00E238A5 /* FirebaseFirestoreUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = FirebaseFirestoreUI.framework;
+			remoteRef = B3612CE72056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CEA2056D75C00E238A5 /* FirebaseFirestoreUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseFirestoreUITests.xctest;
+			remoteRef = B3612CE92056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CEC2056D75C00E238A5 /* libDatabase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDatabase.a;
+			remoteRef = B3612CEB2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CEE2056D75C00E238A5 /* libAuth.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAuth.a;
+			remoteRef = B3612CED2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CF02056D75C00E238A5 /* libFacebook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFacebook.a;
+			remoteRef = B3612CEF2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CF22056D75C00E238A5 /* libGoogle.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGoogle.a;
+			remoteRef = B3612CF12056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CF42056D75C00E238A5 /* libPhone.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPhone.a;
+			remoteRef = B3612CF32056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CF62056D75C00E238A5 /* libTwitter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTwitter.a;
+			remoteRef = B3612CF52056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CF82056D75C00E238A5 /* libStorage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStorage.a;
+			remoteRef = B3612CF72056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CFA2056D75C00E238A5 /* libFirestore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFirestore.a;
+			remoteRef = B3612CF92056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CFC2056D75C00E238A5 /* FirebaseUISample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FirebaseUISample.app;
+			remoteRef = B3612CFB2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B3612CFE2056D75C00E238A5 /* FirebaseUISampleUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = FirebaseUISampleUITests.xctest;
+			remoteRef = B3612CFD2056D75C00E238A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B36DC6492055C0E6005E495F /* Resources */ = {
