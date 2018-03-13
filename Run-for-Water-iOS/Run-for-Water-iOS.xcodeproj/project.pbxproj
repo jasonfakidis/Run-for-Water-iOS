@@ -1116,7 +1116,7 @@
 				DEVELOPMENT_TEAM = SQV46SKS64;
 				INFOPLIST_FILE = "Run-for-Water-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Run-for-Water-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1133,7 +1133,7 @@
 				DEVELOPMENT_TEAM = SQV46SKS64;
 				INFOPLIST_FILE = "Run-for-Water-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Run-for-Water-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "Run-for-Water-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

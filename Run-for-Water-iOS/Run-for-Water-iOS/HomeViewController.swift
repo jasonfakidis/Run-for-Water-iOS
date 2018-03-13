@@ -5,6 +5,8 @@ import UIKit
 import Firebase
 import FirebaseAuthUI
 import FirebasePhoneAuthUI
+import FirebaseGoogleAuthUI
+import FirebaseFacebookAuthUI
 
 class HomeViewController: UIViewController, FUIAuthDelegate {
     
@@ -16,10 +18,16 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        do {
+            try authUI?.signOut()
+        } catch is NSError {
+            print ("Error signing out")
+        }
+
         self.auth = Auth.auth()
         self.authUI = FUIAuth.defaultAuthUI()
         self.authUI?.delegate = self
-        self.authUI?.providers = [FUIPhoneAuth(authUI: self.authUI!),]
+        self.authUI?.providers = [FUIPhoneAuth(authUI: self.authUI!), FUIGoogleAuth(), FUIFacebookAuth(), ]
         self.authStateListenerHandle = self.auth?.addStateDidChangeListener { (auth, user) in
             guard user != nil else {
                 self.loginAction(sender: self)
