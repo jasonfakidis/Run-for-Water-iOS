@@ -5,6 +5,7 @@
 	<key>keychain-access-groups</key>
 	<array>
 		<string>$(AppIdentifierPrefix)Personal.Run-for-Water-iOS</string>
+		<string>$(AppIdentifierPrefix)Run-for-Water-iOS</string>
 	</array>
 </dict>
 </plist>

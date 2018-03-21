@@ -21,15 +21,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rwi.png" translatesAutoresizingMaskIntoConstraints="NO" id="3nn-xv-gww">
-                                <rect key="frame" x="0.0" y="183" width="375" height="301"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0r-rV-AUk">
+                                <rect key="frame" x="164" y="464" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="DisplayLogin:" destination="Q3C-c2-ltq" eventType="touchUpInside" id="VSq-1h-6Kj"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rwi.png" translatesAutoresizingMaskIntoConstraints="NO" id="3nn-xv-gww">
+                                <rect key="frame" x="0.0" y="47" width="375" height="301"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="3nn-xv-gww" firstAttribute="centerY" secondItem="2o6-Hq-0cc" secondAttribute="centerY" id="2vM-rQ-ai0"/>
+                            <constraint firstItem="3nn-xv-gww" firstAttribute="centerY" secondItem="2o6-Hq-0cc" secondAttribute="centerY" constant="-136" id="2vM-rQ-ai0"/>
                             <constraint firstAttribute="trailing" secondItem="3nn-xv-gww" secondAttribute="trailing" id="52R-ej-pSO"/>
-                            <constraint firstItem="3nn-xv-gww" firstAttribute="top" secondItem="04O-CS-FYO" secondAttribute="bottom" constant="163" id="uB5-GV-MDI"/>
+                            <constraint firstItem="3nn-xv-gww" firstAttribute="top" secondItem="04O-CS-FYO" secondAttribute="bottom" constant="27" id="uB5-GV-MDI"/>
                             <constraint firstItem="3nn-xv-gww" firstAttribute="leading" secondItem="2o6-Hq-0cc" secondAttribute="leading" id="vZf-v8-BmA"/>
                         </constraints>
                     </view>

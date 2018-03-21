@@ -10,6 +10,21 @@ import FirebaseFacebookAuthUI
 
 class HomeViewController: UIViewController, FUIAuthDelegate {
     
+    @IBAction func DisplayLogin(_ sender: UIButton) {
+        print("Button clicked");
+        do {
+            try authUI?.signOut()
+        } catch is NSError {
+            print("do it error")
+        }
+        
+        self.authStateListenerHandle = self.auth?.addStateDidChangeListener { (auth, user) in
+            guard user != nil else {
+                self.loginAction(sender: self)
+                return
+            }
+        }
+    }
     fileprivate(set) var auth:Auth?
     fileprivate(set) var authUI: FUIAuth? //only set internally but get externally
     fileprivate(set) var authStateListenerHandle: AuthStateDidChangeListenerHandle?
@@ -21,20 +36,12 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
         do {
             try authUI?.signOut()
         } catch is NSError {
-            print ("Error signing out")
+            print("do it error")
         }
-
         self.auth = Auth.auth()
         self.authUI = FUIAuth.defaultAuthUI()
         self.authUI?.delegate = self
         self.authUI?.providers = [FUIPhoneAuth(authUI: self.authUI!), FUIGoogleAuth(), FUIFacebookAuth(), ]
-        self.authStateListenerHandle = self.auth?.addStateDidChangeListener { (auth, user) in
-            guard user != nil else {
-                self.loginAction(sender: self)
-                return
-            }
-        }
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -57,8 +64,6 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
 ///MARK: Login Extensions
@@ -69,10 +74,16 @@ extension HomeViewController{
         self.present(authViewController!, animated: true, completion: nil)
     }
     
-    
     // Implement the required protocol method for FIRAuthUIDelegate
     func authUI(_ authUI: FUIAuth, didSignInWith user: User?, error: Error?) {
-        guard let authError = error else { return }
+        guard let authError = error else {
+            
+            let storyboard = UIStoryboard(name: "LoggedIn", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "LoggedInViewController") as UIViewController
+            present(vc, animated: true, completion: nil)
+            return
+            
+        }
         
         let errorCode = UInt((authError as NSError).code)
         

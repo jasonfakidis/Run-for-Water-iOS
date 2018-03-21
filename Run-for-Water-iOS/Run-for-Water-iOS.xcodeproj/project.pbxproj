@@ -10,6 +10,10 @@
 		5FB88088AF7BAFF9FD94D58C /* Pods_Run_for_Water_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72C57117F424FFF64AF2B980 /* Pods_Run_for_Water_iOSTests.framework */; };
 		76FE30BB8127FC638FAA852D /* Pods_Run_for_Water_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DDFF773E6D62C774430751B /* Pods_Run_for_Water_iOSUITests.framework */; };
 		9492EE3FFEC0FC6EC25E7C8D /* Pods_Run_for_Water_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415BAB0F8F381122A1060E3E /* Pods_Run_for_Water_iOS.framework */; };
+		9D45AFB02062CDAC007EE1C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D45AFAF2062CDAB007EE1C4 /* GoogleService-Info.plist */; };
+		9D45AFB22062D916007EE1C4 /* LoggedIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D45AFB12062D916007EE1C4 /* LoggedIn.storyboard */; };
+		9D45AFB42062D9F4007EE1C4 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */; };
+		9D45AFB52062F28E007EE1C4 /* LoggedInViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */; };
 		9DB14E38205847D800C1C579 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB14E36205847D800C1C579 /* HomeViewController.swift */; };
 		9DB14E39205847D800C1C579 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB14E37205847D800C1C579 /* MasterViewController.swift */; };
 		9DB14E3E2058822C00C1C579 /* run_for_life.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB14E3B2058822B00C1C579 /* run_for_life.jpg */; };
@@ -20,7 +24,6 @@
 		B36DC6592055C0E6005E495F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */; };
 		B36DC6642055C0E6005E495F /* Run_for_Water_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC6632055C0E6005E495F /* Run_for_Water_iOSTests.swift */; };
 		B36DC66F2055C0E6005E495F /* Run_for_Water_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC66E2055C0E6005E495F /* Run_for_Water_iOSUITests.swift */; };
-		B36DC67D2055C5FF005E495F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B36DC67C2055C5FF005E495F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -238,6 +241,9 @@
 		7DDFF773E6D62C774430751B /* Pods_Run_for_Water_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Run_for_Water_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF0D14A23EAFD9349F3A28D /* Pods-Run-for-Water-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOSUITests/Pods-Run-for-Water-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E1FA4CD906D650E80878263 /* Pods-Run-for-Water-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOSUITests/Pods-Run-for-Water-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D45AFAF2062CDAB007EE1C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D45AFB12062D916007EE1C4 /* LoggedIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoggedIn.storyboard; sourceTree = "<group>"; };
+		9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		9DB14E32205839A000C1C579 /* Run-for-Water-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Run-for-Water-iOS.entitlements"; sourceTree = "<group>"; };
 		9DB14E36205847D800C1C579 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9DB14E37205847D800C1C579 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -256,7 +262,6 @@
 		B36DC66A2055C0E6005E495F /* Run-for-Water-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Run-for-Water-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36DC66E2055C0E6005E495F /* Run_for_Water_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run_for_Water_iOSUITests.swift; sourceTree = "<group>"; };
 		B36DC6702055C0E6005E495F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B36DC67C2055C5FF005E495F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E603E48BB7932733312C07A5 /* Pods-Run-for-Water-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOS/Pods-Run-for-Water-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -374,11 +379,13 @@
 				9DB14E32205839A000C1C579 /* Run-for-Water-iOS.entitlements */,
 				9DB14E36205847D800C1C579 /* HomeViewController.swift */,
 				9DB14E37205847D800C1C579 /* MasterViewController.swift */,
+				9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */,
 				B36DC64E2055C0E6005E495F /* AppDelegate.swift */,
-				B36DC6522055C0E6005E495F /* Main.storyboard */,
 				B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */,
+				B36DC6522055C0E6005E495F /* Main.storyboard */,
+				9D45AFB12062D916007EE1C4 /* LoggedIn.storyboard */,
 				B36DC65A2055C0E6005E495F /* Info.plist */,
-				B36DC67C2055C5FF005E495F /* GoogleService-Info.plist */,
+				9D45AFAF2062CDAB007EE1C4 /* GoogleService-Info.plist */,
 			);
 			path = "Run-for-Water-iOS";
 			sourceTree = "<group>";
@@ -731,12 +738,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D45AFB52062F28E007EE1C4 /* LoggedInViewController.swift in Resources */,
 				B36DC6592055C0E6005E495F /* LaunchScreen.storyboard in Resources */,
 				9DB14E3E2058822C00C1C579 /* run_for_life.jpg in Resources */,
+				9D45AFB22062D916007EE1C4 /* LoggedIn.storyboard in Resources */,
 				9DB14E3F2058822C00C1C579 /* rwi.png in Resources */,
-				B36DC67D2055C5FF005E495F /* GoogleService-Info.plist in Resources */,
 				9DB14E402058822C00C1C579 /* starting_image_ppt.jpg in Resources */,
 				B36DC6542055C0E6005E495F /* Main.storyboard in Resources */,
+				9D45AFB02062CDAC007EE1C4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -945,6 +954,7 @@
 				9DB14E39205847D800C1C579 /* MasterViewController.swift in Sources */,
 				B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */,
 				9DB14E38205847D800C1C579 /* HomeViewController.swift in Sources */,
+				9D45AFB42062D9F4007EE1C4 /* LoggedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
