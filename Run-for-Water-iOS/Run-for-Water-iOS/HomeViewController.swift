@@ -11,12 +11,12 @@ import FirebaseFacebookAuthUI
 class HomeViewController: UIViewController, FUIAuthDelegate {
     
     @IBAction func DisplayLogin(_ sender: UIButton) {
-        print("Button clicked");
-        do {
-            try authUI?.signOut()
-        } catch is NSError {
-            print("do it error")
-        }
+//        print("Button clicked");
+//        do {
+//            try authUI?.signOut()
+//        } catch is NSError {
+//            print("do it error")
+//        }
         
         self.authStateListenerHandle = self.auth?.addStateDidChangeListener { (auth, user) in
             guard user != nil else {
@@ -24,20 +24,28 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
                 return
             }
         }
+        
+        if(auth?.currentUser != nil){
+            print("Current user is: " + (auth?.currentUser!.email)!)
+            // Go to signed in page
+            let storyboard = UIStoryboard(name: "LoggedIn", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "LoggedInViewController") as UIViewController
+            present(vc, animated: true, completion: nil)
+        }
     }
+    
     fileprivate(set) var auth:Auth?
     fileprivate(set) var authUI: FUIAuth? //only set internally but get externally
     fileprivate(set) var authStateListenerHandle: AuthStateDidChangeListenerHandle?
-    
-  
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        do {
-            try authUI?.signOut()
-        } catch is NSError {
-            print("do it error")
-        }
+//        do {
+//            try authUI?.signOut()
+//        } catch is NSError {
+//            print("do it error")
+//        }
         self.auth = Auth.auth()
         self.authUI = FUIAuth.defaultAuthUI()
         self.authUI?.delegate = self
@@ -46,7 +54,6 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {

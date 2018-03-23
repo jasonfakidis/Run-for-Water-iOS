@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class LoggedInViewController : UIViewController {
+class LoggedInViewController : UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -35,3 +35,5 @@ class LoggedInViewController : UIViewController {
         // Dispose of any resources that can be recreated.
     }
 }
+
+
