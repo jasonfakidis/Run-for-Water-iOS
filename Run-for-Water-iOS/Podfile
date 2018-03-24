@@ -10,9 +10,12 @@ target 'Run-for-Water-iOS' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   pod 'Firebase/Core'
+  pod 'FirebaseUI'
   pod 'GoogleSignIn'
   pod 'FBSDKLoginKit'
   pod 'TwitterKit'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
 
   target 'Run-for-Water-iOSTests' do
     inherit! :search_paths
