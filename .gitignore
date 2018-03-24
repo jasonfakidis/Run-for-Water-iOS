@@ -8,3 +8,4 @@ Run-for-Water-iOS/Pods/
 *.xcscheme
 *.xcconfig
 *.xcconfig
+Run-for-Water-iOS/Pods/*
