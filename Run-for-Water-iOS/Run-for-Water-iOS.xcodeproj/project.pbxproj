@@ -25,6 +25,7 @@
 		B36DC6592055C0E6005E495F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */; };
 		B36DC6642055C0E6005E495F /* Run_for_Water_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC6632055C0E6005E495F /* Run_for_Water_iOSTests.swift */; };
 		B36DC66F2055C0E6005E495F /* Run_for_Water_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC66E2055C0E6005E495F /* Run_for_Water_iOSUITests.swift */; };
+		B3A86DD520680C8300F2A43D /* myWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A86DD420680C8300F2A43D /* myWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,6 +265,7 @@
 		B36DC66A2055C0E6005E495F /* Run-for-Water-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Run-for-Water-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36DC66E2055C0E6005E495F /* Run_for_Water_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run_for_Water_iOSUITests.swift; sourceTree = "<group>"; };
 		B36DC6702055C0E6005E495F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A86DD420680C8300F2A43D /* myWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myWebViewController.swift; sourceTree = "<group>"; };
 		E603E48BB7932733312C07A5 /* Pods-Run-for-Water-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Run-for-Water-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Run-for-Water-iOS/Pods-Run-for-Water-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -378,17 +380,13 @@
 		B36DC64D2055C0E6005E495F /* Run-for-Water-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B3634C2F2066BA5000958C9F /* GoogleMapViewController.swift */,
-				B3634C2D2066B9C200958C9F /* GoogleService-Info.plist */,
-				9DB14E32205839A000C1C579 /* Run-for-Water-iOS.entitlements */,
-				9DB14E36205847D800C1C579 /* HomeViewController.swift */,
-				9DB14E37205847D800C1C579 /* MasterViewController.swift */,
-				9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */,
+				B3A86DD82068119000F2A43D /* Storyboards */,
+				B3A86DD720680CA000F2A43D /* ViewControllers */,
+				B3A86DD620680C8D00F2A43D /* Tabs */,
 				B36DC64E2055C0E6005E495F /* AppDelegate.swift */,
-				B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */,
-				B36DC6522055C0E6005E495F /* Main.storyboard */,
-				9D45AFB12062D916007EE1C4 /* LoggedIn.storyboard */,
+				9DB14E32205839A000C1C579 /* Run-for-Water-iOS.entitlements */,
 				B36DC65A2055C0E6005E495F /* Info.plist */,
+				B3634C2D2066B9C200958C9F /* GoogleService-Info.plist */,
 			);
 			path = "Run-for-Water-iOS";
 			sourceTree = "<group>";
@@ -409,6 +407,35 @@
 				B36DC6702055C0E6005E495F /* Info.plist */,
 			);
 			path = "Run-for-Water-iOSUITests";
+			sourceTree = "<group>";
+		};
+		B3A86DD620680C8D00F2A43D /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B3634C2F2066BA5000958C9F /* GoogleMapViewController.swift */,
+				B3A86DD420680C8300F2A43D /* myWebViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		B3A86DD720680CA000F2A43D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9DB14E36205847D800C1C579 /* HomeViewController.swift */,
+				9DB14E37205847D800C1C579 /* MasterViewController.swift */,
+				9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B3A86DD82068119000F2A43D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B36DC6572055C0E6005E495F /* LaunchScreen.storyboard */,
+				B36DC6522055C0E6005E495F /* Main.storyboard */,
+				9D45AFB12062D916007EE1C4 /* LoggedIn.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		F4E3BEBD024A9C8021779FDE /* Frameworks */ = {
@@ -959,6 +986,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3634C302066BA5100958C9F /* GoogleMapViewController.swift in Sources */,
+				B3A86DD520680C8300F2A43D /* myWebViewController.swift in Sources */,
 				9DB14E39205847D800C1C579 /* MasterViewController.swift in Sources */,
 				B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */,
 				9DB14E38205847D800C1C579 /* HomeViewController.swift in Sources */,

@@ -10,10 +10,35 @@ import Foundation
 import UIKit
 import GooglePlaces
 import GoogleMaps
+import Firebase
 
 class GoogleMapsViewController : UIViewController {
+	
+	var ref: DatabaseReference!
+	var mapView = GMSMapView.map(withFrame: CGRect.zero, camera: GMSCameraPosition.camera(withLatitude: 0, longitude: 30, zoom: 1.0))
+	
     override func viewDidLoad() {
         super.viewDidLoad()
+		ref = Database.database().reference()
+		ref.child("Wells").observe(DataEventType.value, with: { (snapshot) in
+			if let snapshotValue = snapshot.value as? NSArray{
+				//then I iterate over the values
+				for snapDict in snapshotValue{
+					//and I cast the objects to swift Dictionaries
+					let dict = snapDict as? Dictionary<String, Any>
+					if dict != nil{
+					let marker = GMSMarker()
+					marker.position = CLLocationCoordinate2D(latitude:dict?["wellLatitude"] as! CLLocationDegrees, longitude:dict?["wellLongitude"] as! CLLocationDegrees)
+					marker.title = dict?["contactEmail"] as? String
+					marker.snippet = dict?["wellId"] as? String
+					marker.map = self.mapView
+					}
+				}
+			}
+			
+		}) { (error) in
+			print(error.localizedDescription)
+		}
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -38,21 +63,10 @@ class GoogleMapsViewController : UIViewController {
     }
     
         override func loadView() {
-            // Create a GMSCameraPosition that tells the map to display the
-            // coordinate -33.86,151.20 at zoom level 6.
-            let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 6.0)
-            let mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
             mapView.settings.compassButton = true
             mapView.settings.myLocationButton = true
             mapView.settings.setAllGesturesEnabled(true)
             mapView.settings.zoomGestures = true
             view = mapView
-    
-            // Creates a marker in the center of the map.
-            let marker = GMSMarker()
-            marker.position = CLLocationCoordinate2D(latitude: -33.86, longitude: 151.20)
-            marker.title = "Sydney"
-            marker.snippet = "Australia"
-            marker.map = mapView
         }
 }
