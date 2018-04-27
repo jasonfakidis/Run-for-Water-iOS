@@ -7,17 +7,17 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>989704819582-i4kqggcovto3mu3oqfmtsc6rj7buig4b.apps.googleusercontent.com</string>
+	<string>989704819582-ngvdfccpsi92d94hc59tk7hocgd3h1ea.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.989704819582-i4kqggcovto3mu3oqfmtsc6rj7buig4b</string>
+	<string>com.googleusercontent.apps.989704819582-ngvdfccpsi92d94hc59tk7hocgd3h1ea</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDTAJKpB_8suYCrq8T6lophJE08iCsgdNY</string>
+	<string>AIzaSyA_ClT62iykcQoslvse-iXnmlA1QuuR72s</string>
 	<key>GCM_SENDER_ID</key>
 	<string>989704819582</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>Run-for-Water-iOS</string>
+	<string>Personal.Run-for-Water-iOS</string>
 	<key>PROJECT_ID</key>
 	<string>cpen391</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:989704819582:ios:258fcece231105ff</string>
+	<string>1:989704819582:ios:1c3fd113f4046c80</string>
 	<key>DATABASE_URL</key>
 	<string>https://cpen391.firebaseio.com</string>
 </dict>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Google Maps View Controller-->
+        <scene sceneID="AAT-lN-vPB">
+            <objects>
+                <viewController id="16i-CJ-w5F" customClass="GoogleMapsViewController" customModule="Run_for_Water_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AvU-j3-De7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="twr-1W-JWt"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="7uH-CW-C3u"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uUx-8W-iZG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1478" y="-164"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="35p-NQ-qM8">
+            <objects>
+                <viewController id="icZ-vM-uNo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Mc-zk-FwU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="X1r-CX-sMO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="twtr-share.png" systemItem="downloads" id="Udp-5V-dX2"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kCw-oJ-35M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="240"/>
+        </scene>
+        <!--Logged In View Controller-->
+        <scene sceneID="vxy-ES-CIy">
+            <objects>
+                <tabBarController storyboardIdentifier="LoggedInViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="rkU-Wh-pVp" customClass="LoggedInViewController" customModule="Run_for_Water_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="gnd-D2-Fyu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <segue destination="16i-CJ-w5F" kind="relationship" relationship="viewControllers" id="bxJ-GV-Afv"/>
+                        <segue destination="icZ-vM-uNo" kind="relationship" relationship="viewControllers" id="CNi-rZ-Xeq"/>
+                        <segue destination="FiB-Yv-ozi" kind="relationship" relationship="viewControllers" id="tkf-Ku-cAW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k0S-A1-JV7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-358" y="-164"/>
+        </scene>
+        <!--My Web View Controller-->
+        <scene sceneID="l2h-Pk-soQ">
+            <objects>
+                <viewController id="FiB-Yv-ozi" customClass="myWebViewController" customModule="Run_for_Water_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Im8-ar-jAr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XLd-3U-nE5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="bqO-l5-gQ0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBb-f3-uvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="-567"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="twtr-share.png" width="14" height="15"/>
+    </resources>
+</document>
