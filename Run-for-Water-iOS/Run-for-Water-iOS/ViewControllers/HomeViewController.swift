@@ -12,12 +12,12 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
     
     @IBAction func DisplayLogin(_ sender: UIButton) {
 //        print("Button clicked");
-//        do {
-//            try authUI?.signOut()
-//        } catch is NSError {
-//            print("do it error")
-//        }
-        
+        do {
+            try authUI?.signOut()
+        } catch is NSError {
+            print("do it error")
+        }
+	
         self.authStateListenerHandle = self.auth?.addStateDidChangeListener { (auth, user) in
             guard user != nil else {
                 self.loginAction(sender: self)
@@ -49,7 +49,10 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
         self.auth = Auth.auth()
         self.authUI = FUIAuth.defaultAuthUI()
         self.authUI?.delegate = self
-        self.authUI?.providers = [FUIPhoneAuth(authUI: self.authUI!), FUIGoogleAuth(), FUIFacebookAuth(), ]
+//        self.authUI?.providers = [FUIPhoneAuth(authUI: self.authUI!), FUIGoogleAuth(), FUIFacebookAuth() ]
+		self.authUI?.providers = [FUIGoogleAuth(), FUIFacebookAuth() ]
+		let phoneauth = FUIPhoneAuth(authUI: self.authUI!)
+		phoneauth.signIn(withPresenting: self)
     }
     
     override func viewDidAppear(_ animated: Bool) {
