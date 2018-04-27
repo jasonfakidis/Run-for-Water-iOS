@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,25 +43,6 @@
             </objects>
             <point key="canvasLocation" x="596" y="240"/>
         </scene>
-        <!--My Web View Controller-->
-        <scene sceneID="Xxm-N3-8ao">
-            <objects>
-                <viewController id="UZt-iz-X4q" customClass="myWebViewController" customModule="Run_for_Water_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <wkWebView key="view" contentMode="scaleToFill" id="8aT-Cu-wOi">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <wkWebViewConfiguration key="configuration">
-                            <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                            <wkPreferences key="preferences"/>
-                        </wkWebViewConfiguration>
-                    </wkWebView>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="dzW-gq-CYG"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8kF-fB-O68" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="596" y="-497"/>
-        </scene>
         <!--Logged In View Controller-->
         <scene sceneID="vxy-ES-CIy">
             <objects>
@@ -77,14 +58,30 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="UZt-iz-X4q" kind="relationship" relationship="viewControllers" id="MCY-4W-ccf"/>
                         <segue destination="16i-CJ-w5F" kind="relationship" relationship="viewControllers" id="bxJ-GV-Afv"/>
                         <segue destination="icZ-vM-uNo" kind="relationship" relationship="viewControllers" id="CNi-rZ-Xeq"/>
+                        <segue destination="FiB-Yv-ozi" kind="relationship" relationship="viewControllers" id="tkf-Ku-cAW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k0S-A1-JV7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-358" y="-164"/>
+        </scene>
+        <!--My Web View Controller-->
+        <scene sceneID="l2h-Pk-soQ">
+            <objects>
+                <viewController id="FiB-Yv-ozi" customClass="myWebViewController" customModule="Run_for_Water_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Im8-ar-jAr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XLd-3U-nE5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="bqO-l5-gQ0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBb-f3-uvg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="596" y="-567"/>
         </scene>
     </scenes>
     <resources>
