@@ -18,6 +18,7 @@
 		9DB14E3E2058822C00C1C579 /* run_for_life.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB14E3B2058822B00C1C579 /* run_for_life.jpg */; };
 		9DB14E3F2058822C00C1C579 /* rwi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB14E3C2058822B00C1C579 /* rwi.png */; };
 		9DB14E402058822C00C1C579 /* starting_image_ppt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB14E3D2058822C00C1C579 /* starting_image_ppt.jpg */; };
+		B337ACF22092D09E00641E4F /* MarkerInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337ACF12092D09E00641E4F /* MarkerInputViewController.swift */; };
 		B3634C2E2066B9C200958C9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3634C2D2066B9C200958C9F /* GoogleService-Info.plist */; };
 		B3634C302066BA5100958C9F /* GoogleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3634C2F2066BA5000958C9F /* GoogleMapViewController.swift */; };
 		B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36DC64E2055C0E6005E495F /* AppDelegate.swift */; };
@@ -251,6 +252,7 @@
 		9DB14E3B2058822B00C1C579 /* run_for_life.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run_for_life.jpg; sourceTree = "<group>"; };
 		9DB14E3C2058822B00C1C579 /* rwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rwi.png; sourceTree = "<group>"; };
 		9DB14E3D2058822C00C1C579 /* starting_image_ppt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starting_image_ppt.jpg; sourceTree = "<group>"; };
+		B337ACF12092D09E00641E4F /* MarkerInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerInputViewController.swift; sourceTree = "<group>"; };
 		B3612CAB2056D75C00E238A5 /* FirebaseUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FirebaseUI.xcodeproj; path = "../../FirebaseUI-iOS/FirebaseUI.xcodeproj"; sourceTree = "<group>"; };
 		B3634C2D2066B9C200958C9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3634C2F2066BA5000958C9F /* GoogleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapViewController.swift; sourceTree = "<group>"; };
@@ -421,6 +423,7 @@
 		B3A86DD720680CA000F2A43D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B337ACF12092D09E00641E4F /* MarkerInputViewController.swift */,
 				9DB14E36205847D800C1C579 /* HomeViewController.swift */,
 				9DB14E37205847D800C1C579 /* MasterViewController.swift */,
 				9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */,
@@ -986,6 +989,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3634C302066BA5100958C9F /* GoogleMapViewController.swift in Sources */,
+				B337ACF22092D09E00641E4F /* MarkerInputViewController.swift in Sources */,
 				B3A86DD520680C8300F2A43D /* myWebViewController.swift in Sources */,
 				9DB14E39205847D800C1C579 /* MasterViewController.swift in Sources */,
 				B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */,
