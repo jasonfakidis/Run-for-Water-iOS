@@ -14,7 +14,6 @@
 		9D45AFB42062D9F4007EE1C4 /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */; };
 		9D45AFB52062F28E007EE1C4 /* LoggedInViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */; };
 		9DB14E38205847D800C1C579 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB14E36205847D800C1C579 /* HomeViewController.swift */; };
-		9DB14E39205847D800C1C579 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB14E37205847D800C1C579 /* MasterViewController.swift */; };
 		9DB14E3E2058822C00C1C579 /* run_for_life.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB14E3B2058822B00C1C579 /* run_for_life.jpg */; };
 		9DB14E3F2058822C00C1C579 /* rwi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB14E3C2058822B00C1C579 /* rwi.png */; };
 		9DB14E402058822C00C1C579 /* starting_image_ppt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9DB14E3D2058822C00C1C579 /* starting_image_ppt.jpg */; };
@@ -248,7 +247,6 @@
 		9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		9DB14E32205839A000C1C579 /* Run-for-Water-iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Run-for-Water-iOS.entitlements"; sourceTree = "<group>"; };
 		9DB14E36205847D800C1C579 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		9DB14E37205847D800C1C579 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		9DB14E3B2058822B00C1C579 /* run_for_life.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = run_for_life.jpg; sourceTree = "<group>"; };
 		9DB14E3C2058822B00C1C579 /* rwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rwi.png; sourceTree = "<group>"; };
 		9DB14E3D2058822C00C1C579 /* starting_image_ppt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = starting_image_ppt.jpg; sourceTree = "<group>"; };
@@ -425,7 +423,6 @@
 			children = (
 				B337ACF12092D09E00641E4F /* MarkerInputViewController.swift */,
 				9DB14E36205847D800C1C579 /* HomeViewController.swift */,
-				9DB14E37205847D800C1C579 /* MasterViewController.swift */,
 				9D45AFB32062D9F4007EE1C4 /* LoggedInViewController.swift */,
 			);
 			path = ViewControllers;
@@ -991,7 +988,6 @@
 				B3634C302066BA5100958C9F /* GoogleMapViewController.swift in Sources */,
 				B337ACF22092D09E00641E4F /* MarkerInputViewController.swift in Sources */,
 				B3A86DD520680C8300F2A43D /* myWebViewController.swift in Sources */,
-				9DB14E39205847D800C1C579 /* MasterViewController.swift in Sources */,
 				B36DC64F2055C0E6005E495F /* AppDelegate.swift in Sources */,
 				9DB14E38205847D800C1C579 /* HomeViewController.swift in Sources */,
 				9D45AFB42062D9F4007EE1C4 /* LoggedInViewController.swift in Sources */,

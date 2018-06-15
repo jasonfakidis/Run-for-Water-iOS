@@ -12,11 +12,11 @@ class HomeViewController: UIViewController, FUIAuthDelegate {
     
     @IBAction func DisplayLogin(_ sender: UIButton) {
 //        print("Button clicked");
-        do {
-            try authUI?.signOut()
-        } catch is NSError {
-            print("do it error")
-        }
+//        do {
+//            try authUI?.signOut()
+//        } catch is NSError {
+//            print("do it error")
+//        }
 	
         self.authStateListenerHandle = self.auth?.addStateDidChangeListener { (auth, user) in
             guard user != nil else {

@@ -18,9 +18,13 @@ class GoogleMapsViewController : UIViewController, GMSMapViewDelegate {
 	var dict: Dictionary<String, Any>!
 	var mapView = GMSMapView.map(withFrame: CGRect.zero, camera: GMSCameraPosition.camera(withLatitude: 0, longitude: 30, zoom: 1.0))
 	
+	var listOfWells: [Int: [String: Any]] = [:]
+	
     override func viewDidLoad() {
         super.viewDidLoad()
 		ref = Database.database().reference()
+		var count = 0
+		
 		ref.child("Wells").observe(DataEventType.value, with: { (snapshot) in
 			if let snapshotValue = snapshot.value as? NSArray{
 				//then I iterate over the values
@@ -28,11 +32,13 @@ class GoogleMapsViewController : UIViewController, GMSMapViewDelegate {
 					//and I cast the objects to swift Dictionaries
 					self.dict = snapDict as? Dictionary<String, Any>
 					if self.dict != nil{
-					let marker = GMSMarker()
-					marker.position = CLLocationCoordinate2D(latitude:self.dict?["wellLatitude"] as! CLLocationDegrees, longitude:self.dict?["wellLongitude"] as! CLLocationDegrees)
-					marker.title = self.dict?["contactEmail"] as? String
-					marker.snippet = self.dict?["wellId"] as? String
-					marker.map = self.mapView
+						let marker = GMSMarker()
+						marker.position = CLLocationCoordinate2D(latitude:self.dict?["wellLatitude"] as! CLLocationDegrees, longitude:self.dict?["wellLongitude"] as! CLLocationDegrees)
+						marker.title = self.dict?["contactEmail"] as? String
+						marker.snippet = self.dict?["wellId"] as? String
+						marker.map = self.mapView
+						self.listOfWells[count] = self.dict
+						count = count + 1
 					}
 				}
 			}
@@ -85,6 +91,7 @@ class GoogleMapsViewController : UIViewController, GMSMapViewDelegate {
 		
 		// Display pop-up
 		let popUpViewController = UIStoryboard(name: "LoggedIn", bundle: nil).instantiateViewController(withIdentifier: "inputMapDataID") as! MarkerInputViewController
+		popUpViewController.listOfWells = self.listOfWells
 		self.addChildViewController(popUpViewController)
 		popUpViewController.view.frame = self.view.frame
 		self.view.addSubview(popUpViewController.view)

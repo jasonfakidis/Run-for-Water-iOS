@@ -6,14 +6,22 @@
 //  Copyright © 2018 Kieran Halliday. All rights reserved.
 //
 
+import Foundation
 import UIKit
+import GooglePlaces
+import GoogleMaps
+import Firebase
 
 class MarkerInputViewController: UIViewController {
 
-    override func viewDidLoad() {
+	@IBOutlet weak var wellInfo: UILabel!
+	
+	var listOfWells: [Int: [String: Any]] = [:]
+	override func viewDidLoad() {
         super.viewDidLoad()
 		
 		self.view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
+		self.wellInfo.text = listOfWells[0]!["contactEmail"] as? String
 
         // Do any additional setup after loading the view.
     }
