@@ -34,28 +34,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Htq-yh-ugf">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Htq-yh-ugf">
                                 <rect key="frame" x="67" y="269" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j9w-l7-AdI">
-                                        <rect key="frame" x="57.062906724511777" y="19.780911062906625" width="124" height="91"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="j9w-l7-AdI">
+                                        <rect key="frame" x="57" y="20" width="124" height="91.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Well Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdX-Id-Oz0">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Well Information" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdX-Id-Oz0">
                                                 <rect key="frame" x="0.0" y="0.0" width="124" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epj-Se-geV">
-                                                <rect key="frame" x="0.0" y="30.5" width="124" height="20.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Epj-Se-geV">
+                                                <rect key="frame" x="0.0" y="30.5" width="124" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="3hO-bB-J6y"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9Q-h7-Yiu">
-                                                <rect key="frame" x="0.0" y="61" width="124" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9Q-h7-Yiu">
+                                                <rect key="frame" x="0.0" y="61.5" width="124" height="30"/>
                                                 <state key="normal" title="Close">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -68,9 +69,19 @@
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="j9w-l7-AdI" firstAttribute="top" secondItem="Htq-yh-ugf" secondAttribute="top" constant="20" id="HYH-qz-EdN"/>
+                                    <constraint firstItem="j9w-l7-AdI" firstAttribute="leading" secondItem="Htq-yh-ugf" secondAttribute="leading" constant="57" id="g7l-jD-4wt"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Htq-yh-ugf" firstAttribute="centerY" secondItem="6K7-gu-iWY" secondAttribute="centerY" id="68G-zK-VwD"/>
+                            <constraint firstItem="Htq-yh-ugf" firstAttribute="leading" secondItem="EDz-zg-95r" secondAttribute="leading" constant="67" id="9l3-Ss-23G"/>
+                            <constraint firstItem="Htq-yh-ugf" firstAttribute="top" secondItem="EDz-zg-95r" secondAttribute="top" constant="249" id="iq4-zz-Vpo"/>
+                            <constraint firstItem="Htq-yh-ugf" firstAttribute="centerX" secondItem="6K7-gu-iWY" secondAttribute="centerX" id="yR2-jo-N78"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="EDz-zg-95r"/>
                     </view>
                     <connections>
