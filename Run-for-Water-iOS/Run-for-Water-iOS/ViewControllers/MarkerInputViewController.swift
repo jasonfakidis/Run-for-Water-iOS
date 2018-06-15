@@ -24,6 +24,7 @@ class MarkerInputViewController: UIViewController {
 		self.wellInfo.text = listOfWells[0]!["contactEmail"] as? String
 
         // Do any additional setup after loading the view.
+		
     }
 
     override func didReceiveMemoryWarning() {
